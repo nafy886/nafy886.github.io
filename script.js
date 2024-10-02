@@ -31,8 +31,8 @@ jam.innerHTML = `${hour}:${minutes}`;
 // Dirubah
 const pengirim = "Ogy";
 const nomorWa = "6281904153981"; // awalan nomor 0 harus di awalin 62
-const textWa = "Jadii gimanaa dengan achaa?";
-const pesan = `Jadii gimanaa dengan achaa?`; //rubah
+const textWa = "iya aku juga punya perasaan yang sama";
+const pesan = `iya aku juga punya perasaan yang sama`; //rubah
 
 if (pengirim) {
   nama.innerHTML = pengirim;
@@ -73,9 +73,9 @@ hilang1.addEventListener("click", () => {
     let i = 0;
     const speed = 50;
     const namaAwal = result.value.login.charAt(0);
-    let txt = `Halo, Nama kamu ${
-      result.value.login
-    }, Nama kamu berawal dari huruf ${namaAwal.toUpperCase()}, ${pesan}`;
+    let txt = `${
+      //result.value.login
+    //},  ${namaAwal.toUpperCase()}, ${pesan}`;
 
     const typeWriter = () => {
       if (i < txt.length) {
