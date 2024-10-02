@@ -73,8 +73,8 @@ hilang1.addEventListener("click", () => {
     let i = 0;
     const speed = 50;
     const namaAwal = result.value.login.charAt(0);
-    let txt = `${
-      //result.value.login
+    // let txt = `${
+    //result.value.login
     //},  ${namaAwal.toUpperCase()}, ${pesan}`;
 
     const typeWriter = () => {
