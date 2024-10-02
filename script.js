@@ -58,14 +58,14 @@ hilang1.addEventListener("click", () => {
   Swal.fire({
     imageUrl: "/assets/img/stiker_mylove.gif",
     imageHeight: 120,
-    title: "jadii gimana Achaa?",
+    title: "Ini kamu kan Achaa?",
     html: `<input type="text" id="login" class="swal2-input" placeholder="Nama Kamu">`,
     confirmButtonText: "Kirim",
     focusConfirm: false,
     preConfirm: () => {
       const login = Swal.getPopup().querySelector("#login").value;
       if (!login) {
-        Swal.showValidationMessage(`jadii gimana Achaa? :(`);
+        Swal.showValidationMessage(`Ini kamu kan Achaa? :(`);
       }
       return { login };
     },
